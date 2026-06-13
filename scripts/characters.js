@@ -355,6 +355,7 @@ window.CHARACTERS = [
     className: "Wizard",
     image: "assets/characters/naenelis.png",
     sheet: "assets/sheets/naenelis.pdf",
+    claimedBy: "Test",
     tagline: "A smart, traditional magic-user for careful planning.",
     description:
       "Naenelis is a classic refined spellcaster: smart, observant, and magically talented. High Elves can see in the dark, resist charm magic, do not sleep normally, and know a little extra magic.",
