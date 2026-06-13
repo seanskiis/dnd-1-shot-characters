@@ -288,7 +288,7 @@ window.CHARACTERS = [
     name: "Zavog",
     race: "Half-Orc",
     className: "Fighter",
-    image: "assets/characters/placeholder.svg",
+    image: "assets/characters/zavog.png",
     tagline: "A classic powerful warrior and one of the easiest beginner picks.",
     description:
       "Zavog is a classic powerful warrior. Half-Orcs are strong, intimidating, hard to kill, and dangerous with heavy weapon hits. Fighters are the most straightforward weapon-focused class.",
@@ -313,7 +313,7 @@ window.CHARACTERS = [
     name: "Trap",
     race: "Stout Halfling",
     className: "Barbarian",
-    image: "assets/characters/placeholder.svg",
+    image: "assets/characters/trap.png",
     tagline: "A small, scrappy, lucky front-line warrior.",
     description:
       "Trap is an unusual combination: a small, lucky Halfling who fights like a raging front-line warrior. Stout Halflings are tougher than other Halflings and resist poison. Barbarians become very hard to hurt when enraged.",
@@ -338,7 +338,7 @@ window.CHARACTERS = [
     name: "Naenelis",
     race: "High Elf",
     className: "Wizard",
-    image: "assets/characters/placeholder.svg",
+    image: "assets/characters/naenelis.png",
     tagline: "A smart, traditional magic-user for careful planning.",
     description:
       "Naenelis is a classic refined spellcaster: smart, observant, and magically talented. High Elves can see in the dark, resist charm magic, do not sleep normally, and know a little extra magic.",
@@ -362,7 +362,7 @@ window.CHARACTERS = [
     name: "Klara",
     race: "Dragonborn",
     className: "Cleric",
-    image: "assets/characters/placeholder.svg",
+    image: "assets/characters/klara.png",
     tagline: "A protective healer with dragon flavor.",
     description:
       "Klara is a holy spellcaster with dragon-like traits. This Dragonborn has Black Dragon ancestry, an acid breath attack, and resistance to acid damage. Clerics are divine magic users who can heal, protect, and still fight when needed.",
