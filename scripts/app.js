@@ -87,6 +87,17 @@
             `
             : ""
         }
+        ${
+          character.sheet
+            ? `
+              <div class="sheet-actions">
+                <a class="sheet-link" href="${character.sheet}" target="_blank" rel="noopener">
+                  Character Sheet
+                </a>
+              </div>
+            `
+            : ""
+        }
       </div>
     `;
   }
