@@ -426,4 +426,78 @@ h2 {
   margin-top: 10px;
   padding: 0 16px;
   color: #130f12;
-  background: var(--ac
+  background: var(--accent-strong);
+  border-radius: 3px;
+  font-family: var(--title-font);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.site-footer {
+  padding: 28px clamp(18px, 4vw, 56px);
+  color: var(--muted);
+  border-top: 1px solid var(--line-soft);
+}
+
+@media (max-width: 900px) {
+  .hero,
+  .detail-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    min-height: auto;
+  }
+
+  .hero-showcase {
+    min-height: 430px;
+  }
+
+  .detail-art {
+    max-width: 520px;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1180px) {
+  h1 {
+    font-size: clamp(4rem, 6.6vw, 5.4rem);
+  }
+}
+
+@media (max-width: 520px) {
+  .site-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .brand::before,
+  .brand::after {
+    width: 22px;
+  }
+
+  h1 {
+    font-size: clamp(2.6rem, 14vw, 3.4rem);
+  }
+
+  .character-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-showcase {
+    min-height: 360px;
+  }
+
+  .showcase-main {
+    right: 24px;
+    width: min(72%, 290px);
+  }
+
+  .showcase-side {
+    width: min(36%, 140px);
+  }
+
+  .showcase-side-bottom {
+    right: 10px;
+  }
+}
