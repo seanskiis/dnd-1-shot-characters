@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>D&D Character Gallery</title>
+    <meta
+      name="description"
+      content="A browsable gallery of pre-built Dungeons & Dragons characters."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Character gallery home">
+        <span class="brand-mark">20</span>
+        <span>Character Gallery</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#characters">Characters</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow">One-shot roster</p>
+          <h1 id="page-title">Choose your adventurer.</h1>
+          <p>
+            Browse the pre-built characters available for the next session.
+            Each profile includes artwork, class details, and the full roleplay
+            pitch.
+          </p>
+        </div>
+        <div class="hero-panel" aria-hidden="true">
+          <div class="die-face">20</div>
+          <div class="hero-lines">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery-section" id="characters" aria-labelledby="characters-title">
+        <div class="section-heading">
+          <p class="eyebrow">Available characters</p>
+          <h2 id="characters-title">Player options</h2>
+        </div>
+        <div class="character-grid" id="character-grid"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Built for a fast table read before the dice hit the tray.</p>
+    </footer>
+
+    <script src="scripts/characters.js"></script>
+    <script src="scripts/app.js"></script>
+  </body>
+</html>

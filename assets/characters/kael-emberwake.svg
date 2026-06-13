@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title">
+  <title id="title">Stylized portrait placeholder for Kael Emberwake</title>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#63262e"/>
+      <stop offset="0.58" stop-color="#285a7d"/>
+      <stop offset="1" stop-color="#171717"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="400" cy="365" r="150" fill="#c9636e"/>
+  <path d="M270 260 170 120 330 210ZM530 260 630 120 470 210Z" fill="#171717"/>
+  <path d="M170 910c48-230 155-345 230-345s182 115 230 345z" fill="#1d2730"/>
+  <path d="M285 610h230l-115 210z" fill="#bd8f3d"/>
+  <text x="400" y="940" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="52" font-weight="700">Kael Emberwake</text>
+</svg>

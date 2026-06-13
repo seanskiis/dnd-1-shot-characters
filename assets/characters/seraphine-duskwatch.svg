@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title">
+  <title id="title">Stylized portrait placeholder for Seraphine Duskwatch</title>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#171717"/>
+      <stop offset="0.45" stop-color="#4f5870"/>
+      <stop offset="1" stop-color="#f7f5ef"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="525" cy="190" r="92" fill="#f7f5ef"/>
+  <circle cx="565" cy="165" r="92" fill="#4f5870"/>
+  <circle cx="400" cy="370" r="140" fill="#d8c6aa"/>
+  <path d="M225 920c46-220 128-330 175-330s129 110 175 330z" fill="#f7f5ef"/>
+  <path d="M340 615h120l-60 180z" fill="#8d2f35"/>
+  <text x="400" y="940" text-anchor="middle" fill="#171717" font-family="Arial, sans-serif" font-size="42" font-weight="700">Seraphine Duskwatch</text>
+</svg>

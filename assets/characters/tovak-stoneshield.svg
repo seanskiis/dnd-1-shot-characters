@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title">
+  <title id="title">Stylized portrait placeholder for Tovak Stoneshield</title>
+  <defs>
+    <linearGradient id="bg" x1="1" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#3f4850"/>
+      <stop offset="0.56" stop-color="#1f6f5b"/>
+      <stop offset="1" stop-color="#171717"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <path d="M225 245h350v120c0 110-75 198-175 225-100-27-175-115-175-225z" fill="#bd8f3d"/>
+  <circle cx="400" cy="360" r="130" fill="#b98b64"/>
+  <path d="M225 920c50-210 108-315 175-315s125 105 175 315z" fill="#29313a"/>
+  <path d="M280 260h240v76H280z" fill="#f7f5ef"/>
+  <text x="400" y="940" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="46" font-weight="700">Tovak Stoneshield</text>
+</svg>

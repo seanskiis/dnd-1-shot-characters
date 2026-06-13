@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title">
+  <title id="title">Stylized portrait placeholder for Brindle Copperpot</title>
+  <defs>
+    <linearGradient id="bg" x1="1" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#285a7d"/>
+      <stop offset="0.55" stop-color="#8d2f35"/>
+      <stop offset="1" stop-color="#bd8f3d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="400" cy="380" r="128" fill="#e2a66c"/>
+  <path d="M238 320c80-130 245-130 324 0-98-42-208-42-324 0z" fill="#503320"/>
+  <path d="M215 920c36-205 125-308 185-308s149 103 185 308z" fill="#162b3f"/>
+  <circle cx="260" cy="570" r="54" fill="#f7f5ef"/>
+  <path d="M250 545c90 35 143 88 158 160" stroke="#171717" stroke-width="22" fill="none" stroke-linecap="round"/>
+  <text x="400" y="940" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="46" font-weight="700">Brindle Copperpot</text>
+</svg>
