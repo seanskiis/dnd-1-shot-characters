@@ -9,6 +9,19 @@
     return `character.html?id=${encodeURIComponent(character.id)}`;
   }
 
+  function renderList(title, items) {
+    if (!items || !items.length) return "";
+
+    return `
+      <section class="detail-section">
+        <h2>${title}</h2>
+        <ul>
+          ${items.map((item) => `<li>${item}</li>`).join("")}
+        </ul>
+      </section>
+    `;
+  }
+
   function renderGallery() {
     const grid = byId("character-grid");
     if (!grid) return;
@@ -62,6 +75,18 @@
         <h1>${character.name}</h1>
         <p class="tagline">${character.tagline}</p>
         <p>${character.description}</p>
+        ${renderList("Strengths", character.strengths)}
+        ${renderList("Tradeoffs", character.tradeoffs)}
+        ${
+          character.playstyle
+            ? `
+              <section class="detail-section">
+                <h2>Playstyle</h2>
+                <p>${character.playstyle}</p>
+              </section>
+            `
+            : ""
+        }
       </div>
     `;
   }
