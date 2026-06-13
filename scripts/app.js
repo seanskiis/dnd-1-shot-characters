@@ -29,9 +29,14 @@
     grid.innerHTML = characters
       .map(
         (character) => `
-          <a class="character-card" href="${characterUrl(character)}">
+          <a class="character-card${character.claimedBy ? " is-claimed" : ""}" href="${characterUrl(character)}">
             <span class="portrait-frame">
               <img src="${character.image}" alt="${character.name}">
+              ${
+                character.claimedBy
+                  ? `<span class="claim-badge">${character.claimedBy}</span>`
+                  : ""
+              }
             </span>
             <span class="card-copy">
               <span class="character-name">${character.name}</span>

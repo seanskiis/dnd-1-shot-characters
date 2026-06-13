@@ -279,6 +279,7 @@ h2 {
 }
 
 .portrait-frame {
+  position: relative;
   display: block;
   aspect-ratio: 4 / 5;
   overflow: hidden;
@@ -291,6 +292,27 @@ h2 {
 .detail-art img {
   height: 100%;
   object-fit: cover;
+}
+
+.character-card.is-claimed .portrait-frame img {
+  filter: grayscale(0.82) brightness(0.58);
+}
+
+.claim-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  padding: 6px 10px;
+  color: #130f12;
+  background: var(--accent-strong);
+  border: 1px solid #fff1cc;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.42);
+  font-family: var(--title-font);
+  font-size: 0.92rem;
+  line-height: 1;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .card-copy {

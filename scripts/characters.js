@@ -251,6 +251,7 @@ window.CHARACTERS = [
     className: "Rogue",
     image: "assets/characters/perigord.png",
     sheet: "assets/sheets/perigord.pdf",
+    claimedBy: "Chris",
     tagline: "A clever infiltrator with fire resistance and precise hands.",
     description:
       "Perigord is a sneaky Tiefling with infernal traits. Tieflings can see in the dark and resist fire, while rogues specialize in stealth, precision, and skills.",
