@@ -9,6 +9,10 @@
     return `character.html?id=${encodeURIComponent(character.id)}`;
   }
 
+  function thumbnailUrl(character) {
+    return character.thumbnail || `assets/thumbnails/${character.id}.jpg`;
+  }
+
   function renderList(title, items) {
     if (!items || !items.length) return "";
 
@@ -31,7 +35,7 @@
         (character) => `
           <a class="character-card${character.claimedBy ? " is-claimed" : ""}" href="${characterUrl(character)}">
             <span class="portrait-frame">
-              <img src="${character.image}" alt="${character.name}">
+              <img src="${thumbnailUrl(character)}" alt="${character.name}" loading="lazy" decoding="async">
               ${
                 character.claimedBy
                   ? `<span class="claim-badge">${character.claimedBy}</span>`
