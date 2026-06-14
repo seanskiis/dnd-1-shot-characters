@@ -78,6 +78,7 @@ window.CHARACTERS = [
     className: "Bard",
     image: "assets/characters/hammer.png",
     sheet: "assets/sheets/hammer.pdf",
+    claimedBy: "Kevin",
     tagline: "A tough performer who helps the whole group shine.",
     description:
       "Hammer is a performer, talker, and support character with a tough Half-Orc body. Bards use music, words, and magic to inspire allies, distract enemies, and solve social problems.",
@@ -225,6 +226,7 @@ window.CHARACTERS = [
     className: "Rogue",
     image: "assets/characters/vartak.png",
     sheet: "assets/sheets/vartak.pdf",
+    claimedBy: "Kelly",
     tagline: "A fast, sneaky, sharp-eyed scout who strikes from position.",
     description:
       "Vartak is a fast, sneaky, sharp-eyed scout. Wood Elves move quickly, see in the dark, resist charm magic, and are naturally good at hiding in natural environments. Rogues are experts at stealth, traps, and striking vulnerable enemies.",
@@ -303,6 +305,7 @@ window.CHARACTERS = [
     className: "Fighter",
     image: "assets/characters/zavog.png",
     sheet: "assets/sheets/zavog.pdf",
+    claimedBy: "Meredith",
     tagline: "A classic powerful warrior and one of the easiest beginner picks.",
     description:
       "Zavog is a classic powerful warrior. Half-Orcs are strong, intimidating, hard to kill, and dangerous with heavy weapon hits. Fighters are the most straightforward weapon-focused class.",
@@ -380,6 +383,7 @@ window.CHARACTERS = [
     className: "Cleric",
     image: "assets/characters/klara.png",
     sheet: "assets/sheets/klara.pdf",
+    claimedBy: "Jess",
     tagline: "A protective healer with dragon flavor.",
     description:
       "Klara is a holy spellcaster with dragon-like traits. This Dragonborn has Black Dragon ancestry, an acid breath attack, and resistance to acid damage. Clerics are divine magic users who can heal, protect, and still fight when needed.",
